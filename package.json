@@ -1,0 +1,24 @@
+{
+  "name": "multi-agent-orchestration-system",
+  "version": "1.0.0",
+  "description": "Enterprise-level multi-agent AI system demonstrating specialized agent collaboration",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "backend": "cd backend && python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "install-all": "npm install && cd frontend && npm install"
+  },
+  "keywords": [
+    "multi-agent",
+    "ai",
+    "llm",
+    "orchestration",
+    "customer-support",
+    "react",
+    "fastapi",
+    "groq"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "T001",
+    "message": "I ordered iPhone 15 Pro but received iPhone 15. Order #12345. I want a refund.",
+    "expected_category": "refund",
+    "expected_outcome": "Full refund eligible - wrong item shipped",
+    "expected_amount": "$999.00"
+  },
+  {
+    "id": "T002",
+    "message": "How do I track my order? Order number is #67890",
+    "expected_category": "general_question",
+    "expected_outcome": "Provide tracking information",
+    "expected_amount": "N/A"
+  },
+  {
+    "id": "T003",
+    "message": "Product arrived damaged. Can I exchange it? Ordered 3 days ago. Order #12345",
+    "expected_category": "exchange",
+    "expected_outcome": "Exchange approved - free return shipping",
+    "expected_amount": "Free exchange"
+  },
+  {
+    "id": "T004",
+    "message": "I've been waiting 2 weeks for my iPhone 15 Pro (Order #67890) and it still hasn't arrived! This is unacceptable!",
+    "expected_category": "complaint",
+    "expected_outcome": "Investigate shipping delay, offer compensation",
+    "urgency": "high"
+  },
+  {
+    "id": "T005",
+    "message": "I bought an iPhone 15 two months ago (Order #11111) and want to return it. Can I get a refund?",
+    "expected_category": "refund",
+    "expected_outcome": "Refund denied - outside 30-day window",
+    "expected_amount": "$0.00"
+  },
+  {
+    "id": "T006",
+    "message": "What colors does the iPhone 15 Pro come in? And what's the price?",
+    "expected_category": "general_question",
+    "expected_outcome": "Provide product information",
+    "expected_amount": "N/A"
+  },
+  {
+    "id": "T007",
+    "message": "I ordered the wrong color iPhone 15. Can I exchange it for a different color? Order #12345",
+    "expected_category": "exchange",
+    "expected_outcome": "Exchange approved - customer pays return shipping",
+    "expected_amount": "Customer pays shipping"
+  },
+  {
+    "id": "T008",
+    "message": "My iPhone 15 stopped working after 1 week. This is a defective product! Order #12345. I demand a full refund immediately!",
+    "expected_category": "refund",
+    "expected_outcome": "Refund approved - defective product",
+    "urgency": "high",
+    "expected_amount": "$799.00"
+  }
+]
