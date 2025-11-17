@@ -1,4 +1,4 @@
-import { Activity, Github, Twitter, Linkedin } from 'lucide-react';
+import { Activity, Github, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -20,26 +20,20 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://github.com/yourusername/multi-agent-system"
+                href="https://github.com/AmitNaikRepository/MUlti_agent_System"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors"
+                title="GitHub Repository"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com/yourusername"
+                href="https://www.linkedin.com/in/amit-naik-6264d/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="https://linkedin.com/in/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors"
+                title="LinkedIn Profile"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
@@ -60,10 +54,10 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><a href="https://github.com/yourusername/multi-agent-system#readme" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Documentation</a></li>
-              <li><a href="https://github.com/yourusername/multi-agent-system" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
-              <li><a href="https://github.com/yourusername/multi-agent-system/issues" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Report Issue</a></li>
-              <li><a href="mailto:your.email@example.com" className="hover:text-white transition-colors">Contact</a></li>
+              <li><a href="https://github.com/AmitNaikRepository/MUlti_agent_System#readme" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Documentation</a></li>
+              <li><a href="https://github.com/AmitNaikRepository/MUlti_agent_System" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a></li>
+              <li><a href="https://github.com/AmitNaikRepository/MUlti_agent_System/issues" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Report Issue</a></li>
+              <li><a href="https://www.linkedin.com/in/amit-naik-6264d/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>

@@ -112,8 +112,8 @@ When a customer submits: *"I ordered iPhone 15 Pro but received iPhone 15. Order
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/multi-agent-system.git
-cd multi-agent-system
+git clone https://github.com/AmitNaikRepository/MUlti_agent_System.git
+cd MUlti_agent_System
 ```
 
 2. **Set up environment variables**
@@ -318,10 +318,10 @@ MIT License - feel free to use this for learning and portfolio purposes.
 
 ## 👨‍💻 Author
 
-**Your Name**
-- Portfolio: [your-portfolio.com](https://your-portfolio.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+**Amit Naik**
+- Portfolio: Full-Stack AI/ML Engineer specializing in LLM applications
+- GitHub: [@AmitNaikRepository](https://github.com/AmitNaikRepository)
+- LinkedIn: [Amit Naik](https://www.linkedin.com/in/amit-naik-6264d/)
 
 ## 🙏 Acknowledgments
 

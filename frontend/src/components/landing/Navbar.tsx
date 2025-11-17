@@ -32,8 +32,8 @@ export default function Navbar({ onGetStarted }: NavbarProps) {
             <a href="#benefits" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
               Benefits
             </a>
-            <a 
-              href="https://github.com/yourusername/multi-agent-system"
+            <a
+              href="https://github.com/AmitNaikRepository/MUlti_agent_System"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 font-medium transition-colors"

@@ -34,7 +34,7 @@ export default function CTA({ onGetStarted }: CTAProps) {
             </button>
             
             <a
-              href="https://github.com/yourusername/multi-agent-system"
+              href="https://github.com/AmitNaikRepository/MUlti_agent_System"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-lg font-semibold text-lg hover:bg-white/20 transition-all duration-200 flex items-center justify-center gap-2 border border-white/20"
