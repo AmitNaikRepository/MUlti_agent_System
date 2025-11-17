@@ -17,6 +17,20 @@ This project demonstrates an enterprise-grade **Multi-Agent AI System** where sp
 - 🎯 **Better quality control** with dedicated QA review
 - 📊 **Full observability** with real-time metrics and logs
 
+## 🌐 Professional Landing Page
+
+This project features a **stunning, production-ready landing page** that showcases the multi-agent system like a real SaaS product:
+
+- **Modern Hero Section** with animated gradients and CTAs
+- **Feature Highlights** with 6 key capabilities
+- **Benefits Showcase** with metrics and statistics
+- **How It Works** section explaining the 3-step process
+- **Smooth Navigation** to the interactive dashboard using React Router
+- **Responsive Design** that works on all devices
+- **Professional UI** matching the quality of products like Vercel, Stripe, and Linear
+
+👉 **[View Landing Page](http://localhost:3000)** | **[View Dashboard](http://localhost:3000/dashboard)**
+
 ## 🎯 Real-World Use Case: Customer Support Automation
 
 When a customer submits: *"I ordered iPhone 15 Pro but received iPhone 15. Order #12345. I want a refund."*
@@ -209,10 +223,13 @@ Enter any customer support query:
 
 **Frontend:**
 - React 18 + TypeScript
+- React Router v6 (navigation)
 - Vite (build tool)
 - React Flow (workflow visualization)
 - Recharts (charts)
 - Tailwind CSS (styling)
+- Framer Motion (animations)
+- Lucide React (icons)
 - Axios (HTTP client)
 
 ## 📁 Project Structure
